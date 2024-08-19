@@ -14,6 +14,11 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Jackson")
+            NavigationView{
+                           NavigationLink("Kaitlyn"){
+                               Kaitlyn()
+                           }
+                       }
         }
         .padding()
     }
