@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4AF6C6982C738861004B3852 /* Kaitlyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF6C6972C738861004B3852 /* Kaitlyn.swift */; };
+		69C5602E2C738AF000E382C9 /* Jackson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C5602D2C738AF000E382C9 /* Jackson.swift */; };
 		69E6F4FC2C6E45CF0091C02E /* All_about_meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E6F4FB2C6E45CF0091C02E /* All_about_meApp.swift */; };
 		69E6F4FE2C6E45CF0091C02E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E6F4FD2C6E45CF0091C02E /* ContentView.swift */; };
 		69E6F5002C6E45D10091C02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E6F4FF2C6E45D10091C02E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		4AF6C6972C738861004B3852 /* Kaitlyn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaitlyn.swift; sourceTree = "<group>"; };
+		69C5602D2C738AF000E382C9 /* Jackson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jackson.swift; sourceTree = "<group>"; };
 		69E6F4F82C6E45CF0091C02E /* All about me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All about me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E6F4FB2C6E45CF0091C02E /* All_about_meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_about_meApp.swift; sourceTree = "<group>"; };
 		69E6F4FD2C6E45CF0091C02E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				4AF6C6972C738861004B3852 /* Kaitlyn.swift */,
 				69E6F4FB2C6E45CF0091C02E /* All_about_meApp.swift */,
 				69E6F4FD2C6E45CF0091C02E /* ContentView.swift */,
+				69C5602D2C738AF000E382C9 /* Jackson.swift */,
 				69E6F4FF2C6E45D10091C02E /* Assets.xcassets */,
 				69E6F5012C6E45D10091C02E /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF6C6982C738861004B3852 /* Kaitlyn.swift in Sources */,
+				69C5602E2C738AF000E382C9 /* Jackson.swift in Sources */,
 				69E6F4FE2C6E45CF0091C02E /* ContentView.swift in Sources */,
 				69E6F4FC2C6E45CF0091C02E /* All_about_meApp.swift in Sources */,
 			);

@@ -1,8 +1,12 @@
-//
-//  Jackson.swift
-//  All about me
-//
-//  Created by Jackson A. Laesch on 8/19/24.
-//
+import SwiftUI
 
-import Foundation
+struct Jackson: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            
+        }
+    }
+}
