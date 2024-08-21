@@ -10,38 +10,24 @@ import SwiftUI
 struct Kaitlyn: View {
     var body: some View {
         VStack {
-        Text("Kaitlyn")
-                .font(.custom("Big Caslon",fixedSize:30))
-                .foregroundColor(.orange)
-        Text("Senior")
-                .font(.custom("Cochin",fixedSize:30))
-                .foregroundColor(.brown)
-              
-        Text("Fall+Winter")
-                .font(.custom("Hoefler Text",fixedSize:30))
-                .foregroundColor(.green)
-                
-        Image(systemName: "heart")
-                .resizable()
-                .foregroundColor(.pink)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 500, height:60)
-               
-        Image(systemName: "leaf")
-                .resizable()
-                .foregroundColor(.green)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 50, height:50)
-             
-        Image(systemName: "tree")
-                .resizable()
-                .foregroundColor(.brown)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 50, height:50)
-               
-                }
+            VStack {
+                Text("Kaitlyn")
+                    .font(.custom("Thonburi-Light  ",fixedSize:30))
+                    .foregroundColor(.blue)
+                    .underline()
+                Text("1. I have 2 dogs")
+                    .font(.custom("Thonburi-Light  ",fixedSize:30))
+                    .foregroundColor(.gray)
+                Text("2. I have one older sister")
+                    .font(.custom("Thonburi-Light  ",fixedSize:30))
+                    .foregroundColor(.gray)
+                Text("2. Fall and Winter are my favorite seasons")
+                    .font(.custom("Thonburi-Light  ",fixedSize:30))
+                    .foregroundColor(.gray)
             }
         }
+    }
+}
 #Preview {
     Kaitlyn()
 }

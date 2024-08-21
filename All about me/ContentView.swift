@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Jackson")
+       
             NavigationView{
                            NavigationLink("Kaitlyn"){
                                Kaitlyn()
